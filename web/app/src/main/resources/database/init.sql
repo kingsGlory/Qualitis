@@ -555,7 +555,7 @@ CREATE TABLE `qualitis_template_user` (
 
 -- -------------------------- 插入数据库预先数据 -------------------------
 -- 管理员账户
-insert into qualitis_auth_user(id, username, password, chinese_name, department) values(1, "admin", "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918", "管理员", "管理员");
+insert into qualitis_auth_user(id, username, password, chinese_name, department) values(1, "admin", "1607e8b5a6e5deb7d91875facb7fcda973b1435c4e03fab31a73f6c68db962fa", "管理员", "管理员");
 -- 管理员角色
 insert into qualitis_auth_role(id, name) values(1, "ADMIN");
 insert into qualitis_auth_role(id, name) values(2, "PROJECTOR");

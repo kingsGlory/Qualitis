@@ -203,7 +203,7 @@ public class UserServiceImpl implements UserService {
     @Transactional(rollbackFor = {Exception.class})
     public void autoAddUser(String username) throws RoleNotFoundException {
         User newUser = new User();
-        String password = username + "_ctyun2020";
+        String password = username + "_auto_2020";
         String passwordEncoded = Sha256Encoder.encode(password);
         newUser.setUsername(username);
         newUser.setPassword(passwordEncoded);
